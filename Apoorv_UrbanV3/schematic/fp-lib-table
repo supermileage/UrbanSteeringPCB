@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name schematic)(type KiCad)(uri "$(KIPRJMOD)/schematic.pretty")(options "")(descr ""))
+  (lib (name LP4OA1PBBTG)(type KiCad)(uri ${KIPRJMOD}/LP4OA1PBBTG)(options "")(descr "")(disabled))
+  (lib (name Button_D6R90_F1_LFS)(type KiCad)(uri ${KIPRJMOD}/Button_D6R90_F1_LFS)(options "")(descr "")(disabled))
+  (lib (name Rocker_switch_M2022TXG13-DA)(type KiCad)(uri ${KIPRJMOD}/Rocker_switch_M2022TXG13-DA)(options "")(descr ""))
+  (lib (name KS11R21CQD)(type KiCad)(uri ${KIPRJMOD}/KS11R21CQD)(options "")(descr "")(disabled))
+  (lib (name Toggle_Switch_B12JH)(type KiCad)(uri ${KIPRJMOD}/Toggle_Switch_B12JH)(options "")(descr ""))
+  (lib (name eec)(type KiCad)(uri ${KIPRJMOD}/Conn_Molex_15-91-2045/eec.pretty)(options "")(descr ""))
+  (lib (name LP11EE1NCSYG)(type KiCad)(uri ${KIPRJMOD}/LP11EE1NCSYG/LP11EE1NCSYG.pretty)(options "")(descr ""))
+  (lib (name M2013TXG13DA)(type KiCad)(uri ${KIPRJMOD}/M2013TXG13DA)(options "")(descr ""))
+)

@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# B12JH
+#
+DEF B12JH U 0 40 Y N 1 L N
+F0 "U" 200 -100 50 V V L BNN
+F1 "B12JH" 300 -100 50 V V L BNN
+F2 "B12JH" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 0 -125 0 -75 N
+P 2 0 0 10 0 -75 -75 125 N
+P 2 0 0 10 50 100 100 100 N
+P 2 0 0 10 100 100 100 125 N
+P 2 0 0 10 -100 100 -50 100 N
+P 2 0 0 10 -100 100 -100 125 N
+X ~ 2 0 -200 100 U 40 40 0 0 P 
+X ~ 1 100 200 100 D 40 40 0 0 P 
+X ~ 3 -100 200 100 D 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

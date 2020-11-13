@@ -1,0 +1,73 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 15-91-2045
+#
+DEF 15-91-2045 J 0 0 Y Y 1 L N
+F0 "J" 0 300 50 H V L CNN
+F1 "15-91-2045" 0 400 50 H V L CNN
+F2 "Molex-15-91-2045-0-0-*" 0 500 50 H I L CNN
+F3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0015912045_PCB_HEADERS.pdf" 0 600 50 H I L CNN
+F4 "Conn" 0 700 50 H I L CNN "category"
+F5 "Tin" 0 800 50 H I L CNN "contact material"
+F6 "3A" 0 900 50 H I L CNN "current rating"
+F7 "Connectors" 0 1000 50 H I L CNN "device class L1"
+F8 "Headers and Wire Housings" 0 1100 50 H I L CNN "device class L2"
+F9 "unset" 0 1200 50 H I L CNN "device class L3"
+F10 "CONN HEADER 4POS .100 R/A SMD" 0 1300 50 H I L CNN "digikey description"
+F11 "WM1342-ND" 0 1400 50 H I L CNN "digikey part number"
+F12 "https://www.molex.com/pdm_docs/sd/015912045_sd.pdf" 0 1500 50 H I L CNN "footprint url"
+F13 "7.38mm" 0 1600 50 H I L CNN "height"
+F14 "yes" 0 1700 50 H I L CNN "is connector"
+F15 "yes" 0 1800 50 H I L CNN "is male"
+F16 "yes" 0 1900 50 H I L CNN "lead free"
+F17 "db1b425a02f162a8" 0 2000 50 H I L CNN "library id"
+F18 "Molex" 0 2100 50 H I L CNN "manufacturer"
+F19 "Conn Shrouded Header HDR 4 POS 2.54mm Solder RA SMD SLÃ¢â??Â¢ Tube" 0 2200 50 H I L CNN "mouser description"
+F20 "538-15-91-2045" 0 2300 50 H I L CNN "mouser part number"
+F21 "4" 0 2400 50 H I L CNN "number of contacts"
+F22 "1" 0 2500 50 H I L CNN "number of rows"
+F23 "CONN_13MM6_12MM71" 0 2600 50 H I L CNN "package"
+F24 "yes" 0 2700 50 H I L CNN "rohs"
+F25 "+105°C" 0 2800 50 H I L CNN "temperature range high"
+F26 "-40°C" 0 2900 50 H I L CNN "temperature range low"
+F27 "250V" 0 3000 50 H I L CNN "voltage rating"
+DRAW
+S -400 200 -200 -800 1 1 0 f
+S -350 -580 -280 -620 1 1 0 F
+S -350 -380 -280 -420 1 1 0 F
+S -350 -180 -280 -220 1 1 0 F
+S -350 20 -280 -20 1 1 0 F
+P 2 1 1 0 -270 -600 -200 -600 N
+P 2 1 1 0 -270 -400 -200 -400 N
+P 2 1 1 0 -270 -200 -200 -200 N
+P 2 1 1 0 -270 0 -200 0 N
+X 1 1 -100 0 100 L 40 40 1 1 P
+X 2 2 -100 -200 100 L 40 40 1 1 P
+X 3 3 -100 -400 100 L 40 40 1 1 P
+X 4 4 -100 -600 100 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MOLEX-15-91-2035-PIN_HEADER
+#
+DEF MOLEX-15-91-2035-PIN_HEADER J 0 40 Y Y 1 F N
+F0 "J" -100 -50 50 H V C CNN
+F1 "MOLEX-15-91-2035-PIN_HEADER" -50 -1000 50 H V C CNN
+F2 "" -100 -50 50 H I C CNN
+F3 "" -100 -50 50 H I C CNN
+DRAW
+S -200 -100 0 -900 1 1 0 f
+S -150 -680 -80 -720 1 1 0 F
+S -150 -480 -80 -520 1 1 0 F
+S -150 -280 -80 -320 1 1 0 F
+P 2 1 1 0 -70 -700 0 -700 N
+P 2 1 1 0 -70 -500 0 -500 N
+P 2 1 1 0 -70 -300 0 -300 N
+X 1 1 100 -300 100 L 40 40 1 1 P
+X 2 2 100 -500 100 L 40 40 1 1 P
+X 3 3 100 -700 100 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
