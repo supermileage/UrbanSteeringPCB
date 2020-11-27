@@ -9,4 +9,7 @@
   (lib (name eec)(type Legacy)(uri ${KIPRJMOD}/Conn_Molex_15-91-2045/eec.lib)(options "")(descr ""))
   (lib (name LP11EE1NCSYG)(type Legacy)(uri ${KIPRJMOD}/LP11EE1NCSYG/LP11EE1NCSYG.lib)(options "")(descr ""))
   (lib (name M2013TXG13-DA)(type Legacy)(uri ${KIPRJMOD}/M2013TXG13DA/M2013TXG13-DA.lib)(options "")(descr ""))
+  (lib (name 15-91-2035)(type Legacy)(uri ${KIPRJMOD}/15-91-2035/15-91-2035.lib)(options "")(descr ""))
+  (lib (name DS04-254-2-01BK-SMT)(type Legacy)(uri ${KIPRJMOD}/dip_swtich_1pos/DS04-254-2-01BK-SMT.lib)(options "")(descr ""))
+  (lib (name 2020-11-27_17-21-33)(type Legacy)(uri ${KIPRJMOD}/MCP2561/2020-11-27_17-21-33.lib)(options "")(descr ""))
 )
