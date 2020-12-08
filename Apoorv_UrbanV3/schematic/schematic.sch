@@ -117,17 +117,6 @@ F 3 "" H 9050 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L schematic-eagle-import:STM32L432 STM32L432
-U 1 1 DDC8C80D
-P 6250 5050
-F 0 "STM32L432" H 5950 5600 59  0000 L BNN
-F 1 "STM32L432" H 6250 5050 50  0001 C CNN
-F 2 "schematic:STM32L432" H 6250 5050 50  0001 C CNN
-F 3 "" H 6250 5050 50  0001 C CNN
-	1    6250 5050
-	1    0    0    -1  
-$EndComp
-$Comp
 L schematic-eagle-import:2.2TFT LCD1
 U 1 1 B200DBAB
 P 8600 4600
@@ -290,12 +279,10 @@ F 3 "" H 8200 6150 50  0001 C CNN
 	1    8200 6150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5650 4750
 NoConn ~ 5650 4850
 NoConn ~ 5650 5550
 NoConn ~ 5650 5650
 NoConn ~ 6750 4850
-NoConn ~ 6750 5050
 NoConn ~ 6750 5850
 NoConn ~ 9400 5900
 NoConn ~ 9400 6100
@@ -375,12 +362,12 @@ $EndComp
 $Comp
 L schematic-eagle-import:+5V #P+0101
 U 1 1 5FC5A39E
-P 8950 5450
-F 0 "#P+0101" H 8950 5450 50  0001 C CNN
-F 1 "+5V" H 8900 5500 59  0000 L BNN
-F 2 "" H 8950 5450 50  0001 C CNN
-F 3 "" H 8950 5450 50  0001 C CNN
-	1    8950 5450
+P 8950 5550
+F 0 "#P+0101" H 8950 5550 50  0001 C CNN
+F 1 "+5V" H 8900 5600 59  0000 L BNN
+F 2 "" H 8950 5550 50  0001 C CNN
+F 3 "" H 8950 5550 50  0001 C CNN
+	1    8950 5550
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -596,13 +583,11 @@ Text GLabel 6750 5450 2    50   Input ~ 0
 LCD_DC
 Text GLabel 8000 4500 0    50   Input ~ 0
 LCD_RST
-Text GLabel 6750 5350 2    50   Input ~ 0
-LCD_RST
 Text GLabel 8650 4700 3    50   Input ~ 0
 LCD_RST
 Text GLabel 8000 4400 0    50   Input ~ 0
 LCD_CS
-Text GLabel 6750 5250 2    50   Input ~ 0
+Text GLabel 6750 5050 2    50   Input ~ 0
 LCD_CS
 Text GLabel 8000 4800 0    50   Input ~ 0
 LCD_SCK
@@ -730,25 +715,14 @@ F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/prod
 	1    0    0    -1  
 $EndComp
 $Comp
-L M2013TXG13-DA:M2013TXG13-DA INDICATORS1
-U 1 1 5FB38056
-P 4250 4700
-F 0 "INDICATORS1" H 4750 4300 50  0000 C CNN
-F 1 "`" H 4750 4924 50  0001 C CNN
-F 2 "M2013TXG13DA" H 4450 4900 50  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/NKK%20PDFs/M_Mini_Rockers.pdf" H 4350 3700 50  0001 L CNN
-	1    4250 4700
-	1    0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR0112
 U 1 1 5FE02FDB
-P 5250 4700
-F 0 "#PWR0112" H 5250 4450 50  0001 C CNN
-F 1 "GND" H 5255 4527 50  0000 C CNN
-F 2 "" H 5250 4700 50  0001 C CNN
-F 3 "" H 5250 4700 50  0001 C CNN
-	1    5250 4700
+P 5250 4800
+F 0 "#PWR0112" H 5250 4550 50  0001 C CNN
+F 1 "GND" H 5255 4627 50  0000 C CNN
+F 2 "" H 5250 4800 50  0001 C CNN
+F 3 "" H 5250 4800 50  0001 C CNN
+	1    5250 4800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -756,7 +730,7 @@ L power:GND #PWR0113
 U 1 1 5FE0399C
 P 5500 4950
 F 0 "#PWR0113" H 5500 4700 50  0001 C CNN
-F 1 "GND" H 5505 4777 50  0000 C CNN
+F 1 "GND" H 5600 4950 50  0000 C CNN
 F 2 "" H 5500 4950 50  0001 C CNN
 F 3 "" H 5500 4950 50  0001 C CNN
 	1    5500 4950
@@ -916,4 +890,51 @@ Wire Wire Line
 Connection ~ 8200 6050
 Wire Wire Line
 	8200 6050 8300 6050
+Text GLabel 5650 4750 0    50   Input ~ 0
+LCD_RST
+$Comp
+L M2013TXG13-DA:M2013TXG13-DA INDICATORS1
+U 1 1 5FB38056
+P 4250 4700
+F 0 "INDICATORS1" H 4750 4300 50  0000 C CNN
+F 1 "`" H 4750 4924 50  0001 C CNN
+F 2 "M2013TXG13DA" H 4450 4900 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/NKK%20PDFs/M_Mini_Rockers.pdf" H 4350 3700 50  0001 L CNN
+	1    4250 4700
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5250 4700 5250 4800
+NoConn ~ 6750 5350
+$Comp
+L schematic-eagle-import:STM32L432 STM32L432
+U 1 1 DDC8C80D
+P 6250 5050
+F 0 "STM32L432" H 5950 5600 59  0000 L BNN
+F 1 "STM32L432" H 6250 5050 50  0001 C CNN
+F 2 "schematic:STM32L432" H 6250 5050 50  0001 C CNN
+F 3 "" H 6250 5050 50  0001 C CNN
+	1    6250 5050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6750 5250
+Text GLabel 8950 5400 0    50   Input ~ 0
+5V
+Wire Wire Line
+	8950 5350 8950 5450
+Text GLabel 7150 4950 2    50   Input ~ 0
+5V
+$Comp
+L Connector:TestPoint DMS2
+U 1 1 5FD23E77
+P 8250 3400
+F 0 "DMS2" H 8308 3518 50  0000 L CNN
+F 1 "TestPoint" H 8250 3450 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm" H 8450 3400 50  0001 C CNN
+F 3 "~" H 8450 3400 50  0001 C CNN
+	1    8250 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 8250 3400 3    50   Input ~ 0
+DMS
 $EndSCHEMATC
