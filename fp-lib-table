@@ -1,3 +1,12 @@
 (fp_lib_table
-  (lib (name schematic)(type KiCad)(uri "$(KIPRJMOD)/schematic.pretty")(options "")(descr ""))
+  (lib (name schematic)(type KiCad)(uri ${KIPRJMOD}/ProjectLibraries/schematic.pretty)(options "")(descr ""))
+  (lib (name Rocker_switch_M2022TXG13-DA)(type KiCad)(uri ${KIPRJMOD}/ProjectLibraries/Rocker_switch_M2022TXG13-DA)(options "")(descr ""))
+  (lib (name Toggle_Switch_B12JH)(type KiCad)(uri ${KIPRJMOD}/ProjectLibraries/Toggle_Switch_B12JH)(options "")(descr ""))
+  (lib (name eec)(type KiCad)(uri ${KIPRJMOD}/ProjectLibraries/Conn_Molex_15-91-2045/eec.pretty)(options "")(descr ""))
+  (lib (name LP11EE1NCSYG)(type KiCad)(uri ${KIPRJMOD}/ProjectLibraries/LP11EE1NCSYG/LP11EE1NCSYG.pretty)(options "")(descr ""))
+  (lib (name M2013TXG13DA)(type KiCad)(uri ${KIPRJMOD}/ProjectLibraries/M2013TXG13DA)(options "")(descr ""))
+  (lib (name 15-91-2035)(type KiCad)(uri ${KIPRJMOD}/ProjectLibraries/15-91-2035)(options "")(descr ""))
+  (lib (name dip_swtich_1pos)(type KiCad)(uri ${KIPRJMOD}/ProjectLibraries/dip_swtich_1pos)(options "")(descr ""))
+  (lib (name MCP2561)(type KiCad)(uri ${KIPRJMOD}/ProjectLibraries/MCP2561)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/ProjectLibraries/MCP2562/footprints.pretty)(options "")(descr ""))
 )
