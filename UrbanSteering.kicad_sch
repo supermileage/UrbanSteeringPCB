@@ -3408,7 +3408,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f9e641c)
     (property "Reference" "S3" (id 0) (at 240.03 96.52 0))
-    (property "Value" "IGNITION" (id 1) (at 247.65 96.52 0))
+    (property "Value" "RUN/STOP" (id 1) (at 247.65 96.52 0))
     (property "Footprint" "LP11EE1NCSYG:LP11EE1NCSYG" (id 2) (at 243.84 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5447,7 +5447,7 @@
       (reference "S2") (unit 1) (value "INDICATORS") (footprint "M2013TXG13DA:M2013TXG13DA")
     )
     (path "/00000000-0000-0000-0000-00005f9e641c"
-      (reference "S3") (unit 1) (value "IGNITION") (footprint "LP11EE1NCSYG:LP11EE1NCSYG")
+      (reference "S3") (unit 1) (value "RUN/STOP") (footprint "LP11EE1NCSYG:LP11EE1NCSYG")
     )
     (path "/00000000-0000-0000-0000-00005f9fb1ed"
       (reference "S4") (unit 1) (value "WIPERS") (footprint "LP11EE1NCSYG:LP11EE1NCSYG")
