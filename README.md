@@ -14,7 +14,7 @@ Inputs/Outputs
 
 ## Images
 Schematic:
-![Schematic Diagram](./Img/Schematic.png)
+![Schematic Diagram](./Img/schematic.png)
 
 Unfilled Layout:
 ![Unfilled Layout](./Img/Layout.png)
