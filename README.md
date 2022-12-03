@@ -14,16 +14,16 @@ Inputs/Outputs
 
 ## Images
 Schematic:
-![Schematic Diagram](./Img/schematic.png)
+![Schematic Diagram](./Img/Schematic.png)
 
 Unfilled Layout:
-![Unfilled Layout](./Img/layoutNofill.png)
+![Unfilled Layout](./Img/Layout.png)
 
 Front Render:
-![Front Render](./Img/renderFront.png)
+![Front Render](./Img/top.png)
 
 Back Render:
-![Back Render](./Img/renderBack.png)
+![Back Render](./Img/bottom.png)
 
 
 ## Bill of Materials
