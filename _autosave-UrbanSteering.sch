@@ -1,0 +1,441 @@
+EESchema Schematic File Version 5
+EELAYER 36 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "URBAN STEERING WHEEL"
+Date ""
+Rev "3"
+Comp "UBC SUPERMILEAGE"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+NoConn ~ 2350 4850
+NoConn ~ 2350 5050
+NoConn ~ 2350 5250
+NoConn ~ 2350 5750
+NoConn ~ 2350 5950
+NoConn ~ 2350 6150
+NoConn ~ 3850 3600
+NoConn ~ 4950 3600
+NoConn ~ 9250 3250
+NoConn ~ 9250 3450
+NoConn ~ 9250 3650
+NoConn ~ 9250 4100
+NoConn ~ 9250 4300
+NoConn ~ 9250 4500
+NoConn ~ 9250 4950
+NoConn ~ 9250 5150
+NoConn ~ 9250 5350
+Wire Wire Line
+	3350 3400 3350 2350
+Wire Wire Line
+	3400 3700 3850 3700
+Wire Wire Line
+	3500 4200 3850 4200
+Wire Wire Line
+	3550 3500 3850 3500
+Wire Wire Line
+	3550 4000 3850 4000
+Wire Wire Line
+	3650 3900 3850 3900
+Wire Wire Line
+	3650 4100 3850 4100
+Wire Wire Line
+	3700 3800 3850 3800
+Wire Wire Line
+	3850 3400 3350 3400
+Wire Wire Line
+	4000 6350 4150 6350
+Wire Wire Line
+	4950 3500 5200 3500
+Wire Wire Line
+	4950 4000 5000 4000
+Wire Wire Line
+	4950 4700 5250 4700
+Wire Wire Line
+	5450 5250 5750 5250
+Wire Wire Line
+	5500 5450 5750 5450
+Wire Wire Line
+	5550 5750 5750 5750
+Wire Wire Line
+	6600 2750 6950 2750
+Wire Wire Line
+	6900 5450 7150 5450
+Wire Wire Line
+	6950 4350 7350 4350
+Wire Wire Line
+	6950 5750 7150 5750
+Wire Wire Line
+	7650 4350 8000 4350
+Wire Wire Line
+	8000 6150 7950 6150
+Text Notes 3400 2150 1    50   ~ 0
+Brake
+Text Label 3500 4200 0    50   ~ 0
+SR2-STM
+Text Label 3550 3500 0    50   ~ 0
+LCD_RST
+Text Label 3550 4000 0    50   ~ 0
+STM-SR1
+Text Label 3650 3900 0    50   ~ 0
+SRCLK
+Text Label 3650 4100 0    50   ~ 0
+Latch
+Text Label 3700 3800 0    50   ~ 0
+TXD
+Text Label 4000 6350 0    50   ~ 0
+TXD
+Text Label 5000 4000 0    50   ~ 0
+ProximLED
+Text Label 5450 5250 0    50   ~ 0
+STM-SR1
+Text Label 5500 5450 0    50   ~ 0
+SRCLK
+Text Label 5550 5750 0    50   ~ 0
+Latch
+Text Label 6600 2750 0    50   ~ 0
+LCD_RST
+Text Label 6900 5450 0    50   ~ 0
+SRCLK
+Text Label 6950 4350 0    50   ~ 0
+ProximLED
+Text Label 6950 5750 0    50   ~ 0
+Latch
+Text Label 8000 6150 0    50   ~ 0
+SR2-STM
+Text GLabel 9850 3600 2    50   Input ~ 0
+HORN
+Text GLabel 9850 4450 2    50   Input ~ 0
+IGNITION
+Text GLabel 9850 5000 2    50   Input ~ 0
+HAZARDS
+$Comp
+L power:VCC #PWR?
+U 1 1 00000000
+P 5250 4700
+F 0 "#PWR?" H 5250 4550 50  0001 C CNN
+F 1 "VCC" H 5250 4900 50  0000 C CNN
+F 2 "" H 5250 4700 50  0001 C CNN
+F 3 "" H 5250 4700 50  0001 C CNN
+	1    5250 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 00000000
+P 6800 1000
+F 0 "#PWR?" H 6800 850 50  0001 C CNN
+F 1 "VCC" H 6800 1200 50  0000 C CNN
+F 2 "" H 6800 1000 50  0001 C CNN
+F 3 "" H 6800 1000 50  0001 C CNN
+	1    6800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR04
+U 1 1 5F98D46F
+P 9850 3250
+F 0 "#PWR04" H 9850 3100 50  0001 C CNN
+F 1 "+3V3" V 9850 3350 50  0000 L CNN
+F 2 "" H 9850 3250 50  0001 C CNN
+F 3 "" H 9850 3250 50  0001 C CNN
+	1    9850 3250
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR011
+U 1 1 5FE12B81
+P 9850 4100
+F 0 "#PWR011" H 9850 3950 50  0001 C CNN
+F 1 "+3V3" V 9850 4200 50  0000 L CNN
+F 2 "" H 9850 4100 50  0001 C CNN
+F 3 "" H 9850 4100 50  0001 C CNN
+	1    9850 4100
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR014
+U 1 1 5FE13488
+P 9850 5350
+F 0 "#PWR014" H 9850 5200 50  0001 C CNN
+F 1 "+3V3" V 9850 5450 50  0000 L CNN
+F 2 "" H 9850 5350 50  0001 C CNN
+F 3 "" H 9850 5350 50  0001 C CNN
+	1    9850 5350
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 00000000
+P 3400 3700
+F 0 "#PWR?" H 3400 3450 50  0001 C CNN
+F 1 "GND" H 3500 3650 50  0000 L CNN
+F 2 "" H 3400 3700 50  0001 C CNN
+F 3 "" H 3400 3700 50  0001 C CNN
+	1    3400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 00000000
+P 5200 3500
+F 0 "#PWR?" H 5200 3250 50  0001 C CNN
+F 1 "GND" H 5300 3450 50  0000 L CNN
+F 2 "" H 5200 3500 50  0001 C CNN
+F 3 "" H 5200 3500 50  0001 C CNN
+	1    5200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 00000000
+P 7100 900
+F 0 "#PWR?" H 7100 650 50  0001 C CNN
+F 1 "GND" H 7100 700 50  0000 C CNN
+F 2 "" H 7100 900 50  0001 C CNN
+F 3 "" H 7100 900 50  0001 C CNN
+	1    7100 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 00000000
+P 8300 1050
+F 0 "J?" H 8325 1250 50  0000 C CNN
+F 1 "CAN_term" H 8325 1150 50  0000 C CNN
+F 2 "" H 8300 1050 50  0001 C CNN
+F 3 "~" H 8300 1050 50  0001 C CNN
+	1    8300 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 00000000
+P 5950 1600
+F 0 "R?" H 6050 1650 50  0000 L CNN
+F 1 "68" H 6050 1550 50  0000 L CNN
+F 2 "" V 5880 1600 50  0001 C CNN
+F 3 "~" H 5950 1600 50  0001 C CNN
+	1    5950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 00000000
+P 6300 1600
+F 0 "R?" H 6400 1650 50  0000 L CNN
+F 1 "100" H 6400 1550 50  0000 L CNN
+F 2 "" V 6230 1600 50  0001 C CNN
+F 3 "~" H 6300 1600 50  0001 C CNN
+	1    6300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 00000000
+P 6650 1600
+F 0 "R?" H 6750 1650 50  0000 L CNN
+F 1 "120" H 6750 1550 50  0000 L CNN
+F 2 "" V 6580 1600 50  0001 C CNN
+F 3 "~" H 6650 1600 50  0001 C CNN
+	1    6650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 00000000
+P 7500 4350
+F 0 "R?" V 7750 4350 50  0000 C CNN
+F 1 "220" V 7650 4350 50  0000 C CNN
+F 2 "" V 7430 4350 50  0001 C CNN
+F 3 "~" H 7500 4350 50  0001 C CNN
+	1    7500 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 00000000
+P 7150 1600
+F 0 "C?" H 7300 1650 50  0000 L CNN
+F 1 "0.1 uF" H 7300 1550 50  0000 L CNN
+F 2 "" H 7188 1450 50  0001 C CNN
+F 3 "~" H 7150 1600 50  0001 C CNN
+	1    7150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 00000000
+P 8200 4250
+F 0 "J?" H 8150 4150 50  0000 R CNN
+F 1 "Proximity_sensor" H 8150 4250 50  0000 R CNN
+F 2 "" H 8200 4250 50  0001 C CNN
+F 3 "~" H 8200 4250 50  0001 C CNN
+	1    8200 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 00000000
+P 8100 3150
+F 0 "J?" H 8150 3150 50  0000 L CNN
+F 1 "Screen_right" H 8150 3050 50  0000 L CNN
+F 2 "" H 8100 3150 50  0001 C CNN
+F 3 "~" H 8100 3150 50  0001 C CNN
+	1    8100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 00000000
+P 9250 1300
+F 0 "J?" H 9275 1700 50  0000 C CNN
+F 1 "Joystick" H 9275 1600 50  0000 C CNN
+F 2 "" H 9250 1300 50  0001 C CNN
+F 3 "~" H 9250 1300 50  0001 C CNN
+	1    9250 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J?
+U 1 1 00000000
+P 3050 2150
+F 0 "J?" V 2650 2150 50  0000 C CNN
+F 1 "Main_conn" V 2750 2150 50  0000 C CNN
+F 2 "" H 3050 2150 50  0001 C CNN
+F 3 "~" H 3050 2150 50  0001 C CNN
+	1    3050 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x14_Female J?
+U 1 1 00000000
+P 7150 3050
+F 0 "J?" H 7200 3050 50  0000 L CNN
+F 1 "Screen_left" H 7200 2950 50  0000 L CNN
+F 2 "" H 7150 3050 50  0001 C CNN
+F 3 "~" H 7150 3050 50  0001 C CNN
+	1    7150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2020-11-28_19-28-36:MCP2562FD-H_P U1
+U 1 1 5FC345B4
+P 3750 6350
+F 0 "U1" H 4300 6500 60  0000 C CNN
+F 1 "MCP2562" H 4700 6500 60  0000 C CNN
+F 2 "footprints:MCP2562FD-H&slash_P" H 4950 6590 60  0001 C CNN
+F 3 "" H 3750 6350 60  0000 C CNN
+	1    3750 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LP11EE1NCSYG:LP11EE1NCSYG S4
+U 1 1 5F9FB1ED
+P 2050 5050
+F 0 "S4" H 1900 5450 50  0000 C CNN
+F 1 "WIPERS" H 2300 5450 50  0000 C CNN
+F 2 "LP11EE1NCSYG:LP11EE1NCSYG" H 2050 4600 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/38/LP11.pdf" H 2050 5450 50  0001 C CNN
+	1    2050 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LP11EE1NCSYG:LP11EE1NCSYG S5
+U 1 1 5FA03CA3
+P 2050 5950
+F 0 "S5" H 1900 6350 50  0000 C CNN
+F 1 "LIGHTS" H 2250 6350 50  0000 C CNN
+F 2 "LP11EE1NCSYG:LP11EE1NCSYG" H 2050 5500 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/38/LP11.pdf" H 2050 6350 50  0001 C CNN
+	1    2050 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LP11EE1NCSYG:LP11OA1TCSYY S1
+U 1 1 5FA78095
+P 9550 3450
+F 0 "S1" H 9700 3850 50  0000 C CNN
+F 1 "HORN" H 9400 3850 50  0000 C CNN
+F 2 "LP11EE1NCSYG:LP11OA1TCSYY" H 9550 3000 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/38/LP11.pdf" H 9550 3850 50  0001 C CNN
+	1    9550 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LP11EE1NCSYG:LP11EE1NCSYG S3
+U 1 1 5F9E641C
+P 9550 4300
+F 0 "S3" H 9700 4700 50  0000 C CNN
+F 1 "IGNITION" H 9400 4700 50  0000 C CNN
+F 2 "LP11EE1NCSYG:LP11EE1NCSYG" H 9550 3850 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/38/LP11.pdf" H 9550 4700 50  0001 C CNN
+	1    9550 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LP11EE1NCSYG:LP11EE1NCSYG TP2
+U 1 1 5FA044A4
+P 9550 5150
+F 0 "TP2" H 9700 4800 50  0000 C CNN
+F 1 "HAZARDS" H 9350 4800 50  0000 C CNN
+F 2 "LP11EE1NCSYG:LP11EE1NCSYG" H 9550 4700 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/38/LP11.pdf" H 9550 5550 50  0001 C CNN
+	1    9550 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L M2013TXG13-DA:M2013TXG13-DA S2
+U 1 1 5FB38056
+P 1600 4200
+F 0 "S2" H 1850 3800 50  0000 C CNN
+F 1 "INDICATORS" H 2400 3800 50  0000 C CNN
+F 2 "M2013TXG13DA:M2013TXG13DA" H 1800 4400 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/NKK%20PDFs/M_Mini_Rockers.pdf" H 1700 3200 50  0001 L CNN
+	1    1600 4200
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74HC595 U?
+U 1 1 00000000
+P 6150 5650
+F 0 "U?" H 6230 6350 50  0000 L CNN
+F 1 "Output (SR1)" H 6230 6250 50  0000 L CNN
+F 2 "" H 6150 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6150 5650 50  0001 C CNN
+	1    6150 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC595 U?
+U 1 1 00000000
+P 7550 5650
+F 0 "U?" H 7630 6350 50  0000 L CNN
+F 1 "Input (SR2)" H 7630 6250 50  0000 L CNN
+F 2 "" H 7550 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 7550 5650 50  0001 C CNN
+	1    7550 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L schematic-eagle-import:STM32L432 J4
+U 1 1 7FFFFFFF
+P 4450 3800
+F 0 "J4" H 4400 4350 59  0000 L BNN
+F 1 "STM32L432" H 4400 2650 50  0000 C CNN
+F 2 "schematic:STM32L432" H 4450 3800 50  0001 C CNN
+F 3 "" H 4450 3800 50  0001 C CNN
+	1    4450 3800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
