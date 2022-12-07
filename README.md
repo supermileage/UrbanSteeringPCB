@@ -1,5 +1,7 @@
 # The Urban Steering PCB ECAD files made within KiCAD
 
+Version 4 - Nov 2022
+
 ## Images
 Schematic:
 ![Schematic Diagram](./Img/schematic.png)
