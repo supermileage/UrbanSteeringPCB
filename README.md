@@ -15,7 +15,7 @@ Some features of this PCB:
 - SD Card Reader
 - Joystick
 
-![Urban Steering PCB](./Img/steering-pcb.jpb)
+![Urban Steering PCB](./Img/steering-pcb.jpg)
 
 ## Schematic
 
